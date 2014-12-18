@@ -1,0 +1,14 @@
+﻿<div class="page-header clearfix" data-ng-controller="header">
+    <div class="logo pull-left">
+        <a href="/"><img src="/public/system/assets/img/main/sprite/logo.png" /></a>
+    </div>
+    <div class="left pull-left">
+        <ul class="nav navbar-nav">
+            <li data-ng-repeat="menu in states"
+                data-ui-route="{{menu.link}}">
+              <!--   <a data-ui-sref="{{menu.sref}}">{{menu.name}}</a>  -->
+			  <a href="{{menu.link}}">{{menu.name}}</a>
+            </li>
+        </ul>
+    </div>
+</div>
