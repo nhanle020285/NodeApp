@@ -165,6 +165,9 @@ module.exports = function(grunt) {
     } else {
         grunt.registerTask('default', ['requirejs:dev','jshint', 'less:dev', 'csslint', 'concurrent']);
     }
+    
+    // production
+    grunt.registerTask('production', ['requirejs:release', 'less:production', 'cssmin', 'uglify', 'concurrent']);
 
     //Test task.
     grunt.registerTask('validatesource', ['env:test', 'jshint', 'csslint']);
