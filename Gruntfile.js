@@ -170,7 +170,7 @@ module.exports = function(grunt) {
     grunt.registerTask('production', ['requirejs:release', 'less:production', 'cssmin', 'uglify', 'concurrent']);
 
     //Test task.
-    grunt.registerTask('validatesource', ['env:test', 'jshint', 'csslint']);
+    grunt.registerTask('validatesource', ['env:test', 'jshint' , 'csslint']);
     
     //check coding standard task.
     grunt.registerTask('test', ['env:test', 'mochaTest', 'karma:unit']);
