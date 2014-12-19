@@ -1,5 +1,5 @@
 'use strict';
-//console.log(process.env);
+// console.log(process.env);
 var paths = {
     js: ['*.js', 'server/**/*.js', 'public/**/*.js', 'test/**/*.js', '!test/coverage/**', '!public/system/lib/**'],
     html: ['public/**/views/**/*.html', 'server/views/**/*.html'],
