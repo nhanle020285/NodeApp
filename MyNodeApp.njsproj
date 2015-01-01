@@ -22,6 +22,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
+    <Content Include="app.yaml" />
     <Content Include="bower.json" />
     <Content Include="package.json" />
     <Content Include="public\admin\css\bootstrap-responsive.css" />
@@ -304,6 +305,7 @@
     <Compile Include="public\system\lib\jquery\src\traversing\var\rneedsContext.js" />
     <Content Include="server\config\assets.json" />
     <Compile Include="server\config\config.js" />
+    <Compile Include="server\config\env\deployment.js" />
     <Compile Include="server\config\express.js" />
     <Compile Include="server\config\modules.js" />
     <Compile Include="server\config\passport.js" />

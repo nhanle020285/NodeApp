@@ -145,6 +145,9 @@ module.exports = function(grunt) {
         env: {
             test: {
                 NODE_ENV: 'test'
+            },
+            deployment: {
+                NODE_ENV: 'deployment'
             }
         },
         karma: {
