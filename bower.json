@@ -2,7 +2,5 @@
     "name": "mean",
     "version": "0.3.0",
     "dependencies": {
-	    "requirejs": "latest",
-        "angular-ui-router": "#master"
     }
 }
