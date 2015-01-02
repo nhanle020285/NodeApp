@@ -6,4 +6,3 @@ application: node-app-test-813
 
 manual_scaling:
   instances: 1
-
