@@ -2,7 +2,7 @@
 runtime: custom
 vm: true
 api_version: 1
-application: animated-spider-811
+application: node-app-test-813
 
 manual_scaling:
   instances: 1
