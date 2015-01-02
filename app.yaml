@@ -7,12 +7,3 @@ application: node-app-test-813
 manual_scaling:
   instances: 1
 
-handlers:
-
-- url: /(.*\.(html|css|js))
-  static_files: public/\1
-  upload: public/(.*\.(html|css|js))
-
-- url: /.*
-  script: app.js
-  login: required
